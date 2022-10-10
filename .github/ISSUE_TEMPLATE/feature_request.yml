@@ -1,6 +1,7 @@
 name: 🚀 Feature Request or Proposal
 description: Propose a new feature or enhancement
 labels: [enhancement]
+title: "[FEAT]: "
 body:
   - type: markdown
     attributes:
