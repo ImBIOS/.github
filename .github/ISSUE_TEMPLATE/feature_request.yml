@@ -5,7 +5,8 @@ body:
   - type: markdown
     attributes:
       value: |
-      Please make sure this feature request hasn't been already submitted by someone by looking through other open/closed issues. Thanks for your interest in the project and taking the time to fill out this feature report!
+        Please make sure this feature request hasn't been already submitted by someone by looking through other open/closed issues.
+        Thanks for your interest in the project and taking the time to fill out this feature report!
   - type: textarea
     id: feature-description
     attributes:
