@@ -8,6 +8,7 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report 🤗
         Make sure there aren't any open/closed issues for this topic 😃
+
   - type: textarea
     id: bug-description
     attributes:
@@ -15,6 +16,20 @@ body:
       description: Give us a brief description of what happened and what should have happened
     validations:
       required: true
+
+  - type: textarea
+    attributes:
+      label: Environment
+      description: |
+        Run this command in your project's root folder and paste the result:
+
+        ```sh
+        pnpm exec envinfo --system --binaries --browsers --npmPackages "next,react,next-auth,@auth/*"
+        ```
+        Alternatively, you can manually gather the version information from your package.json for these packages: "next", "react" and "next-auth". Please also mention your OS and Node.js version, as well as the browser you are using.
+    validations:
+      required: true
+
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -28,12 +43,14 @@ body:
         More info: A [minimal reproduction](https://stackoverflow.com/help/minimal-reproducible-example) is **required**, otherwise the issue might be closed without further notice. [**Why & How?**](https://antfu.me/posts/why-reproductions-are-required)
     validations:
       required: true
+
   - type: textarea
     id: additional-information
     attributes:
       label: Additional Information
       description: |
         Provide any additional information such as logs, screenshots, likes, scenarios in which the bug occurs so that it facilitates resolving the issue.
+
   - type: checkboxes
     id: checkboxes
     attributes:
