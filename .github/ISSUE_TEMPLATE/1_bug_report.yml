@@ -24,7 +24,7 @@ body:
         Run this command in your project's root folder and paste the result:
 
         ```sh
-        pnpm dlx envinfo --system --binaries --browsers  --npmPackages --SDKs --IDEs --languages
+        pnpm dlx envinfo --system --binaries --browsers  --npmPackages --SDKs --languages
         ```
         add `| pbcopy` if you're in macOS for easy copy paste.
         Alternatively, you can manually gather the version information from your environment.
