@@ -6,7 +6,7 @@ To report a vulnerability, please privately report it via the Security tab on th
 
 You can expect a response within 48 hours if you are a human reporting a genuine issue.
 
-If the reported system vulnerability is accepted, then there must be a reward, at least close to the level of benefit provided or potential problems from the vulnerability.
+If the reported system vulnerability is accepted, then there must be a reward, at least close to the level of benefit provided or potential problems from the vulnerability, and by considering the remaining available reward capability.
 
 All security vulnerabilities will be promptly verified and addressed. 
 
