@@ -24,6 +24,12 @@ body:
         Run this command in your project's root folder and paste the result:
 
         ```sh
+        bunx envinfo --system --binaries --browsers  --npmPackages --SDKs --languages
+        # or
+        npx envinfo --system --binaries --browsers  --npmPackages --SDKs --languages
+        # or
+        yarn envinfo --system --binaries --browsers  --npmPackages --SDKs --languages
+        # or
         pnpm dlx envinfo --system --binaries --browsers  --npmPackages --SDKs --languages
         ```
         add `| pbcopy` if you're in macOS for easy copy paste.
