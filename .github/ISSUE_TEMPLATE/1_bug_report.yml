@@ -74,3 +74,7 @@ body:
           required: true
         - label: The provided reproduction is a [minimal reproducible](https://stackoverflow.com/help/minimal-reproducible-example) of the bug.
           required: true
+  - type: markdown
+    attributes:
+      value: |
+        _Thumbs-up (👍) count in each issue is considered as the value of the issue. The more thumbs-up, the more we prioritize it._
